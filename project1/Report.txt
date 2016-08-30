@@ -1,0 +1,79 @@
+Zachary Giuricich
+Project 1 (Poetry) Report
+
+SOURCE CODE:
+	public class Poetry
+	{
+		public static void main(String[] argv)
+		{
+			//First Poem
+			System.out.println("\"Interim\"");
+			System.out.println("---------");
+			System.out.println("The earth is motionless");
+			System.out.println("And poised in space ...");
+			System.out.println("A great bird resting in its flight");
+			System.out.println("Between the alleys of the stars.");
+			System.out.println("It is the wind's hour off ...");
+			System.out.println("The wind has nestled down among the corn ...");
+			System.out.println("The two speak privately together,");
+			System.out.println("Awaiting the whirr of wings.");
+			System.out.println("\t\tLola Ridge");
+
+			//Second Poem
+			System.out.println("\"Palladium\"\n-----------\n"
+				+ "A cortege of clouds\'\nshifting planes\n\n"
+				+ "reflected on a river,\nthe current's weave deepends,\n\n"
+				+ "yet motionless\nthe dramatization of\n\n"
+				+ "a fern unfolding,\nlight illumination the air\n\n"
+				+ "for a moment's threshold,\nwhen time, where we stand,\n\n"
+				+ "corresponds to the day\nheld firm,\n\n"
+				+ "derived from the elegance of\nthe equation\n\n"
+				+ "for what was once never here.\n"
+				+ "\t\tJames Brasfield");
+		}
+	}
+
+SAMPLE RUN:
+	IMAGE:
+		Poetry_Project_Java
+	TEXT OUTPUT:
+		zach@zach-Latitude-E6440:~/Documents/Nova/JavaBootcamp/project1$ javac Poetry.java
+		zach@zach-Latitude-E6440:~/Documents/Nova/JavaBootcamp/project1$ java Poetry "Interim"
+		---------
+		The earth is motionless
+		And poised in space ...
+		A great bird resting in its flight
+		Between the alleys of the stars.
+		It is the wind's hour off ...
+		The wind has nestled down among the corn ...
+		The two speak privately together,
+		Awaiting the whirr of wings.
+				Lola Ridge
+		"Palladium"
+		-----------
+		A cortege of clouds'
+		shifting planes
+
+		reflected on a river,
+		the current's weave deepends,
+
+		yet motionless
+		the dramatization of
+
+		a fern unfolding,
+		light illumination the air
+
+		for a moment's threshold,
+		when time, where we stand,
+
+		corresponds to the day
+		held firm,
+
+		derived from the elegance of
+		the equation
+
+		for what was once never here.
+				James Brasfield
+
+PROBLEM:
+	The problem addressed in this project was how to format string outputs in a program. This was done by having us format two poems of our choice in two different ways, forcing us to make proper use of spacing and escape characters. This was a fairly simple project as the strings were simply copied and pasted from our favorite poems and then formatted with escape characters for line breaks and tabs. The code took approximately 10 minutes.
