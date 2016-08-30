@@ -81,4 +81,8 @@ PROBLEM:
 	forcing us to make proper use of spacing and escape characters. This was a fairly 
 	simple project as the strings were simply copied and pasted from our favorite poems 
 	and then formatted with escape characters for line breaks and tabs. The code took 
+<<<<<<< HEAD
 	approximately 10 minutes.
+=======
+	approximately 10 minutes.
+>>>>>>> fc2f39d8e3836d69213e12691ed8adfef97426c7
