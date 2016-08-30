@@ -76,4 +76,9 @@ SAMPLE RUN:
 				James Brasfield
 
 PROBLEM:
-	The problem addressed in this project was how to format string outputs in a program. This was done by having us format two poems of our choice in two different ways, forcing us to make proper use of spacing and escape characters. This was a fairly simple project as the strings were simply copied and pasted from our favorite poems and then formatted with escape characters for line breaks and tabs. The code took approximately 10 minutes.
+	The problem addressed in this project was how to format string outputs in a program. 
+	This was done by having us format two poems of our choice in two different ways, 
+	forcing us to make proper use of spacing and escape characters. This was a fairly 
+	simple project as the strings were simply copied and pasted from our favorite poems 
+	and then formatted with escape characters for line breaks and tabs. The code took 
+	approximately 10 minutes.
