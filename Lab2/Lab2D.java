@@ -1,13 +1,13 @@
-import java.util.Scanner;
+import java.util.Scanner; //Import Scanner from java api
 
 public class Lab2D
 {
 	public static void main(String[] argv)
 	{
-		Scanner s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in); //Create initial Scanner object for user inputs
 		double max = 0;
 		double[] x;
-		x = new double[4];
+		x = new double[4]; //Stores user input values in an array to compare
 		System.out.println("Enter a value for a:");
 		x[0] = s.nextDouble();
 		System.out.println("Enter a value for b:");
@@ -20,7 +20,7 @@ public class Lab2D
 		{
 			if (x[i]>max)
 			{
-				max = x[i];
+				max = x[i]; //Checks array and sets max equal to the greatest value
 			}
 		}
 		System.out.println(max);

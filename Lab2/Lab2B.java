@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //Import Scanner from java api
 
 public class Lab2B
 {
@@ -7,13 +7,14 @@ public class Lab2B
 		String h = " hours, ";
 		String m = " minutes, ";
 		String se = " seconds, ";
-		Scanner s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in); //Creates initial Scanner object for user inputs
 		System.out.println("How many hours?");
 		int hours = s.nextInt();
 		System.out.println("How many minutes?");
 		int minutes = s.nextInt();
 		System.out.println("How many seconds?");
 		int seconds = s.nextInt();
+		//Checking for pluralities
 		if (hours == 1)
 		{
 			h = " hour, ";

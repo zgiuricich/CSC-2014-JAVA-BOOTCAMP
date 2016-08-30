@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import java.util.Scanner; //Import Scanner from java api
 
 public class Lab2A
 {
 	public static void main(String[] args)
 	{
-		Scanner s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in); //Creates initial Scanner object for user inputs
 		System.out.println("Please enter your name:");
 		String name = s.next();
 		System.out.println("Please enter your pet's name:");
