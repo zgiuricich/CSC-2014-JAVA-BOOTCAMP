@@ -1,0 +1,21 @@
+mom
+dad
+racecar
+pip
+NaN
+rar
+tot
+pop
+wow
+eye
+thing
+test
+not
+example
+of
+palindromes
+trying
+random
+attempt
+java
+madam i'm adam ./
