@@ -34,5 +34,10 @@ public class RollingDice
       sum = die1.roll() + die2.roll() + die3.roll();
       System.out.println ("Die One: " + die1 + ", Die Two: " + die2 + ", Die Three: " + die3);
       System.out.println ("New sum: " + sum);
+
+      die1.nudge();
+      die2.nudge();
+      die3.nudge();
+      System.out.println("Incremented Dice: " + die1 + die2 + die3);
    }
 }

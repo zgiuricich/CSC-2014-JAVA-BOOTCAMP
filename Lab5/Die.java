@@ -57,7 +57,7 @@ public class Die
    //-----------------------------------------------------------------
    public String toString()
    {
-      String result = " " + faceValue + " ";
+      String result = "\n+--+\n|" + faceValue + "|\n+--+";
       return result;
    }
 }
